@@ -4,11 +4,12 @@
 
 Autor:
 * Iván Cruz Flores
+* ivan17cf@gmail.com
 
 Docentes:
 
-* Ing. Juan Manuel Reta.
-* Ing. Eduardo Filomena.
+* Ing. Juan Manuel Reta
+* Ing. Eduardo Filomena
 
 ## TEMA:  Sistema de monitoreo de temperatura y humedad del suelo.
 
@@ -73,14 +74,31 @@ El código fuente en este repositorio es una copia exportada de la versión orig
 
 # Imagenes del prototipo 
 
+vistas del prototipo de pruebas:
+
+<p align="center">
+    <img src="imagenes/prototipo.png"><br>
+
+</p>
+
+# Test de funcionamiento 01
+
 * ..... 
 
+# Test de funcionamiento 02 
+
+* ..... 
+
+# Test de funcionamiento 03 
+
+* ..... 
 
 <p align="center">
     <img src="imagenes/f1.jpg"><br>
     Enlace oficial: 
 </p>
 
+# Funcionamiento del prototipo 
 
 En el siguiente video se muestra el Funcionamiento de lo aplicado durante la práctica:
 <p align="center">
