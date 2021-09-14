@@ -26,6 +26,10 @@ Con este proyecto se busca monitorear los factores variables de humedad y temper
 
 El sistema está compuesto por 2 sensores principales, el sensor digital DS1820 de temperatura de suelo y el sensor analógico YL-69 de humedad de suelo usando el una placa ARM del NUCLEO-F429ZI.
 
+<p align="center">
+    <img src="imagenes/diagrama.png">
+</p>
+
 ## Componentes hardware: 
 
 El prototipo esta compuesto por los siguientes elementos:
@@ -72,7 +76,7 @@ El código fuente en este repositorio es una copia exportada de la versión orig
 </p>
 
 
-# Imagenes del prototipo 
+## Imagenes del prototipo 
 
 vistas del prototipo de pruebas:
 
@@ -81,15 +85,15 @@ vistas del prototipo de pruebas:
 
 </p>
 
-# Test de funcionamiento 01
+## Test de funcionamiento 01
 
 * ..... 
 
-# Test de funcionamiento 02 
+## Test de funcionamiento 02 
 
 * ..... 
 
-# Test de funcionamiento 03 
+## Test de funcionamiento 03 
 
 * ..... 
 
