@@ -22,6 +22,7 @@ Medir la humedad del terreno es la mejor forma de saber las verdaderas necesidad
 
 La constante medición y control de la humedad del terreno es elemental, ya que tanto el exceso, como la falta de agua, son dañinos para las plantas. 
 Con este proyecto se busca monitorear los factores variables de humedad y temperatura de suelo para su aplicación en el cuidado de plantas en el rubro de paisajismo.
+
 El sistema está compuesto por 2 sensores principales, el sensor digital DS1820 de temperatura de suelo y el sensor analógico YL-69 de humedad de suelo usando el una placa ARM del NUCLEO-F429ZI.
 
 ## Componentes hardware: 
@@ -50,20 +51,20 @@ El prototipo esta compuesto por los siguientes elementos:
 * Lenguaje de programación C/C++.
 * Software Cool MacOS Terminal para la interfaz serial.
 
-## Esquematico de conexion
+## Esquemático de conexión
 
 <p align="center">
     <img src="imagenes/conexiones.png">
 </p>
 
-Para tener una mejor resolución de las conexiones, puede revisar el siguiente enlace:
+Para tener una mejor resolución de las conexiones se incluye un documento en pdf con una mejor calidad y puede revisarlo desde el siguiente enlace:
 
 <p align="center">
     <a href="imagenes/diagrama_conexiones.pdf" target="_blank"><img src="imagenes/ampliar.png"></a>
 </p>
 
 
-Para tener acceso al codigo desde la plataforma de os.mbed puede ingresar desde el siguiente enlace:
+El código fuente en este repositorio es una copia exportada de la versión original de la plataforma de os.mbed y si desea revisar el código directamente desde el origen de os.mbed puede ingresar desde el siguiente enlace:
 
 <p align="center">
     <a href="https://ide.mbed.com/compiler/#nav:/Ejemplo_TP_ISE_final;" target="_blank"><img src="imagenes/fuente.png"></a>
@@ -77,7 +78,7 @@ Para tener acceso al codigo desde la plataforma de os.mbed puede ingresar desde 
 
 <p align="center">
     <img src="imagenes/f1.jpg"><br>
-    Enlace oficial: https://wapiti.sourceforge.io/
+    Enlace oficial: 
 </p>
 
 
