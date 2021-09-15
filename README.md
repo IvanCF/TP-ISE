@@ -155,7 +155,7 @@ printf("\n---- Exceso de H2O ----\n ");
 
 ```
 
-# Funcionamiento del prototipo 
+## Funcionamiento del prototipo 
 
 En el siguiente video se muestra el Funcionamiento de lo aplicado durante la práctica:
 <p align="center">
