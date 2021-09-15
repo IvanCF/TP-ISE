@@ -3,8 +3,7 @@
 ## TP ISE - IOT (UBA)
 
 Autor:
-* Iván Cruz Flores
-* ivan17cf@gmail.com
+* Iván Cruz Flores (ivan17cf@gmail.com)
 
 Docentes:
 
@@ -78,7 +77,7 @@ El código fuente en este repositorio es una copia exportada de la versión orig
 
 ## Imagenes del prototipo 
 
-vistas del prototipo de pruebas:
+Vistas del prototipo:
 
 <p align="center">
     <img src="imagenes/prototipo.png"><br>
@@ -87,15 +86,29 @@ vistas del prototipo de pruebas:
 
 ## Test de funcionamiento 01
 
-* ..... 
+* <b>CASO calor extremo:</b> si el sensor de humedad marca sequedad (cercano a 1.0 %) y con temperatura alta en el suelo (superior a 25 °C.
+
+```
+CONDICIÓN:
+
+ if ((cantidadHumedad >=0.7) && (cantTemperatura >= 25)) 
+ 
+SALIDA SERIE:
+
+alertaUpdate(1);
+displayStringWrite( "AYUDA" );
+printf("\n---- ¡Ayuda necesito mucha agua! ----\n ");
+
+```
+
 
 ## Test de funcionamiento 02 
 
-* ..... 
+* CASO: 
 
 ## Test de funcionamiento 03 
 
-* ..... 
+* CASO:
 
 <p align="center">
     <img src="imagenes/f1.jpg"><br>
