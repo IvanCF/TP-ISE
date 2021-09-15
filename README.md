@@ -97,14 +97,14 @@ Vistas del prototipo:
 * <b>CASO CALOR EXTREMO:</b> si el sensor de humedad marca sequedad (cercano a 1.0 %) y con temperatura alta en el suelo (superior a 25 °C).
 
 
-<i>CONDICIÓN:</i>
+<b><i>Condición:</i></b>
 
  ```
  
  if ((cantidadHumedad >=0.7) && (cantTemperatura >= 25)) 
  
  ```
-<i>SALIDA SERIE:</i>
+<b><i>Salida Serie:</i></b>
 
 ```
 alertaUpdate(1);
@@ -118,14 +118,14 @@ printf("\n---- ¡Ayuda necesito mucha agua! ----\n ");
 
 * <b>CASO FALTA AGUA:</b> si el sensor de humedad marca sequedad (cercano a 1.0 %) y con temperatura calida (inferior a 25 °C). 
 
-<i>CONDICIÓN:</i>
+<b><i>Condición:</i></b>
 
  ```
  
  else if ((cantidadHumedad >=0.7) && (cantTemperatura < 25))
  
  ```
-<i>SALIDA SERIE:</i>
+<b><i>Salida Serie:</i></b>
 
 ```
 alertaUpdate(1);
@@ -139,14 +139,14 @@ printf("\n---- ¡Ayuda necesito un poco de agua! ----\n ");
 
 * <b>CASO EXCESO DE AGUA:</b> si el sensor bajo drasticamente en humedad (cercano a 0 %) y con temperatura calida (inferior a 25 °C). 
 
-<i>CONDICIÓN:</i>
+<b><i>Condición:</i></b>
 
  ```
  
  else if((cantidadHumedad < 0.5) && (cantTemperatura < 25)) 
  
  ```
-<i>SALIDA SERIE:</i>
+<b><i>Salida Serie:</i></b>
 
 ```
 alertaUpdate(1);
@@ -159,7 +159,7 @@ printf("\n---- Exceso de H2O ----\n ");
 
 En el siguiente video se muestra el Funcionamiento de lo aplicado durante la práctica:
 <p align="center">
-    <img src="imagenes/play.png"> .....
+    <img src="imagenes/play.png"> ... video subiendo y renderizando...
  </p>
 
 
