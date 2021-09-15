@@ -84,17 +84,29 @@ Vistas del prototipo:
 
 </p>
 
+<b><i>Importante:</i></b>
+
+ ```
+ * Se considera estado normal si:  Humedad > 0.5% y Humedad < de 0.7%
+ * Se considera estado calido si: Temperatura > 20 °C y Temperatura < 25°C
+ 
+ ```
+
 ## Test de funcionamiento 01
 
-* <b>CASO calor extremo:</b> si el sensor de humedad marca sequedad (cercano a 1.0 %) y con temperatura alta en el suelo (superior a 25 °C.
+* <b>CASO CALOR EXTREMO:</b> si el sensor de humedad marca sequedad (cercano a 1.0 %) y con temperatura alta en el suelo (superior a 25 °C).
 
-```
-CONDICIÓN:
 
+<i>CONDICIÓN:</i>
+
+ ```
+ 
  if ((cantidadHumedad >=0.7) && (cantTemperatura >= 25)) 
  
-SALIDA SERIE:
+ ```
+<i>SALIDA SERIE:</i>
 
+```
 alertaUpdate(1);
 displayStringWrite( "AYUDA" );
 printf("\n---- ¡Ayuda necesito mucha agua! ----\n ");
@@ -104,16 +116,44 @@ printf("\n---- ¡Ayuda necesito mucha agua! ----\n ");
 
 ## Test de funcionamiento 02 
 
-* CASO: 
+* <b>CASO FALTA AGUA:</b> si el sensor de humedad marca sequedad (cercano a 1.0 %) y con temperatura calida (inferior a 25 °C). 
+
+<i>CONDICIÓN:</i>
+
+ ```
+ 
+ else if ((cantidadHumedad >=0.7) && (cantTemperatura < 25))
+ 
+ ```
+<i>SALIDA SERIE:</i>
+
+```
+alertaUpdate(1);
+displayStringWrite( "AYUDA" );
+printf("\n---- ¡Ayuda necesito un poco de agua! ----\n ");
+
+```
+
 
 ## Test de funcionamiento 03 
 
-* CASO:
+* <b>CASO EXCESO DE AGUA:</b> si el sensor bajo drasticamente en humedad (cercano a 0 %) y con temperatura calida (inferior a 25 °C). 
 
-<p align="center">
-    <img src="imagenes/f1.jpg"><br>
-    Enlace oficial: 
-</p>
+<i>CONDICIÓN:</i>
+
+ ```
+ 
+ else if((cantidadHumedad < 0.5) && (cantTemperatura < 25)) 
+ 
+ ```
+<i>SALIDA SERIE:</i>
+
+```
+alertaUpdate(1);
+displayStringWrite( "AYUDA" );
+printf("\n---- Exceso de H2O ----\n ");
+
+```
 
 # Funcionamiento del prototipo 
 
